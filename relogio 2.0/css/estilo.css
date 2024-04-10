@@ -1,0 +1,57 @@
+body{
+    background: url('https://wallpaperaccess.com/full/41096.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+    }
+    .data{
+        width: 350px;
+        height: 100px;
+        background: none;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: 3px 3px 15px black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: -92mm;
+        margin-top: -10mm;
+        font-size: 40px;
+        font-family: cursive;
+    }
+
+    .central{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 15px black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 100mm;
+        margin-top: 80mm;
+    }
+    .central div{
+        background: black;
+        color: aliceblue;
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column  ;
+    }
+    .central div span {
+        font-size: 80px;
+    }
+    .central div p{
+        font-size: 22px;
+    
+    }
+    
